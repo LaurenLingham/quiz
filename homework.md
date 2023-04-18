@@ -8,7 +8,7 @@ occurring in several different forms
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
 allows an object to take on multiple different forms or behaviours.
 
-public interface IFit {
+public interface IFit {  
     public String getType();
 }
 
