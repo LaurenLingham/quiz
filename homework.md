@@ -8,6 +8,7 @@ occurring in several different forms
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
 allows an object to take on multiple different forms or behaviours.
 
+```
 public interface IFit {  
     public String getType();
 }
@@ -30,6 +31,7 @@ public class Vehicle {
     private ArrayList<IFit> parts = new ArrayList<>();
     public Vehicle() { this.parts = parts;}
 }
+```
 
 3. What can we use to implement polymorphism in Java?
 inheritance and interfaces
@@ -49,6 +51,7 @@ a Class which contains other objects as instance variables which are part of the
 7. When would you use composition? Provide a simple example in Java.
 where there is a 'has-a' relationship between 2 classes.
 
+```
 public class Engine {
     private String type;
 }
@@ -59,6 +62,7 @@ public class Vehicle {
         this.engine = new Engine;
     }
 }
+```
 
 In this example, the Vehicle class contains an Engine object as an instance variable and it needs this to function.
 
